@@ -2,3 +2,18 @@
 
 ## HTML basics
 - [HTML intro Demo](html-demo/)
+
+
+## Deltagere
+
+- [Hubert - hubodk](https://hubodk.github.io/) ([source](https://github.com/hubodk/hubodk.github.io))
+- [Jonas - loefqvist](https://loefqvist.github.io/) ([source](https://github.com/loefqvist/loefqvist.github.io))
+- [Philip - bsesp](https://bsesp.github.io/) ([source](https://github.com/bsesp/bsesp.github.io))
+- [Katrine - jsondrup](https://jsondrup.github.io/) ([source](https://github.com/jsondrup/jsondrup.github.io))
+- [Mads - lzrpi](https://lzrpi.github.io/) ([source](https://github.com/lzrpi/lzrpi.github.io))
+- [Magnus L - mlogsted](https://mlogsted.github.io/) ([source](https://github.com/mlogsted/mlogsted.github.io))
+
+## Mangler
+
+- Frederik
+- Magnus D
