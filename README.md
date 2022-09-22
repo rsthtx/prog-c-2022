@@ -12,8 +12,7 @@
 - [Katrine - jsondrup](https://jsondrup.github.io/) ([source](https://github.com/jsondrup/jsondrup.github.io))
 - [Mads - lzrpi](https://lzrpi.github.io/) ([source](https://github.com/lzrpi/lzrpi.github.io))
 - [Magnus L - mlogsted](https://mlogsted.github.io/) ([source](https://github.com/mlogsted/mlogsted.github.io))
+- [Magnus D - m0re4](https://m0re4.github.io/) ([source](https://github.com/m0re4/m0re4.github.io))
 
 ## Mangler
-
 - Frederik
-- Magnus D
