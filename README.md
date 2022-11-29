@@ -3,6 +3,8 @@
 ## HTML basics
 - [HTML intro Demo](html-demo/)
 
+## Advent of Code
+- [Advent of code intro](aoc-2022/)
 
 ## Deltagere
 
