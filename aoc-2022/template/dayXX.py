@@ -22,9 +22,9 @@ def load_data(fileName):
 if __name__ == "__main__":
   input_file_name = "dummy-input.txt"
   # TODO: Uncomment line below to use real input
-  # input_file_name = "day01-input.txt" 
+  # input_file_name = "input-day01.txt" 
   
-  print("Loading data")
+  print(f"Loading data from: {input_file_name}")
   lines = load_data(input_file_name)
   
   # converts lines to numbers (depends on the task)

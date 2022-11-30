@@ -4,14 +4,17 @@ Julekalender for softwareudviklere
 
 - [Advent of Code](https://adventofcode.com/)
 - [Første låge](https://adventofcode.com/2022/day/1)
+- [Anden låge](https://adventofcode.com/2022/day/2)
+- [Tredje låge](https://adventofcode.com/2022/day/3)
 
 ## Hints til løsning
 - Log in med github på [Advent of Code](https://adventofcode.com/)
 - Lav en ny mappe, f.eks. `day01`
 - Til hvert problem er der en stump eksempel input. Gem dette i en fil: `day01/dummy-input.txt`
-- Hent dit personlige input data og gem det i en fil på din computer, f.eks. `day01/input.txt`
+- Hent dit personlige input data og gem det i en fil på din computer, f.eks. `day01/input-day01.txt`
 - Lav `day01/day01.py` i samme mappe som input filen
 - Løs opgaven ;-)
+- Lav en ny mappe til hver dag i kalenderen for nemt at holde styr på løsninger og input-data til de enkelte dage.
 
 Her er en [stump python kode](template/dayXX.py), der kan bruges som skabelon til starten på en løsning.
 
@@ -40,9 +43,9 @@ def load_data(fileName):
 if __name__ == "__main__":
   input_file_name = "dummy-input.txt"
   # TODO: Uncomment line below to use real input
-  # input_file_name = "day01-input.txt" 
+  # input_file_name = "input-day01.txt" 
   
-  print("Loading data")
+  print(f"Loading data from: {input_file_name}")
   lines = load_data(input_file_name)
   
   # converts lines to numbers (depends on the task)
