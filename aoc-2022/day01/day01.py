@@ -1,12 +1,22 @@
 def solutionA(lines):
-  # TODO: replace with code solving the problem
-  result = -1 # Dummy result
-  return result
+
+  max_calories = 0
+  calories = 0
+
+  for line in lines:
+    if line != '':
+      calories += int(line)
+    else:
+      if calories > max_calories:
+        max_calories = calories
+      calories = 0
+
+  return max_calories
 
 
 def solutionB(lines):
   # TODO: replace with code solving the problem
-  result = -1 # Dummy result
+  result = -23 # Dummy result
   return result
 
 
@@ -24,7 +34,7 @@ if __name__ == "__main__":
   # TODO: Uncomment line below to use real input
   # input_file_name = "input-day01.txt" 
   
-  print(f"Loading data from: {input_file_name}")
+  print("Loading data")
   lines = load_data(input_file_name)
   
   resultA = solutionA(lines)

@@ -19,13 +19,13 @@ Julekalender for softwareudviklere
 Her er en [stump python kode](template/dayXX.py), der kan bruges som skabelon til starten på en løsning.
 
 ```python
-def solutionA(numbers):
+def solutionA(lines):
   # TODO: replace with code solving the problem
   result = -1 # Dummy result
   return result
 
 
-def solutionB(numbers):
+def solutionB(lines):
   # TODO: replace with code solving the problem
   result = -1 # Dummy result
   return result
@@ -48,13 +48,10 @@ if __name__ == "__main__":
   print(f"Loading data from: {input_file_name}")
   lines = load_data(input_file_name)
   
-  # converts lines to numbers (depends on the task)
-  numbers = [int(l) for l in lines]
-
-  resultA = solutionA(numbers)
+  resultA = solutionA(lines)
   print(f"Solution for part A: {resultA}")
 
-  resultB = solutionB(numbers)
+  resultB = solutionB(lines)
   print(f"Solution for part B: {resultB}")
 ```
 
