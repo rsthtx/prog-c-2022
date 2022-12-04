@@ -11,7 +11,7 @@ Julekalender for softwareudviklere
 - Log in med github på [Advent of Code](https://adventofcode.com/)
 - Lav en ny mappe, f.eks. `day01`
 - Til hvert problem er der en stump eksempel input. Gem dette i en fil: `day01/dummy-input.txt`
-- Hent dit personlige input data og gem det i en fil på din computer, f.eks. `day01/input-day01.txt`
+- Hent dit personlige input data og gem det i en fil på din computer, f.eks. `day01/input.txt`
 - Lav `day01/day01.py` i samme mappe som input filen
 - Løs opgaven ;-)
 - Lav en ny mappe til hver dag i kalenderen for nemt at holde styr på løsninger og input-data til de enkelte dage.
@@ -21,14 +21,12 @@ Her er en [stump python kode](template/dayXX.py), der kan bruges som skabelon ti
 ```python
 def solutionA(lines):
   # TODO: replace with code solving the problem
-  result = -1 # Dummy result
-  return result
+  return -1 # Dummy result, deliberately wrong
 
 
 def solutionB(lines):
   # TODO: replace with code solving the problem
-  result = -1 # Dummy result
-  return result
+  return -2 # Dummy result, deliberately wrong
 
 
 # Helper function for loading the problem data
@@ -43,9 +41,9 @@ def load_data(fileName):
 if __name__ == "__main__":
   input_file_name = "dummy-input.txt"
   # TODO: Uncomment line below to use real input
-  # input_file_name = "input-day01.txt" 
+  # input_file_name = "input.txt" 
   
-  print(f"Loading data from: {input_file_name}")
+  print("Loading data")
   lines = load_data(input_file_name)
   
   resultA = solutionA(lines)
@@ -53,6 +51,7 @@ if __name__ == "__main__":
 
   resultB = solutionB(lines)
   print(f"Solution for part B: {resultB}")
+
 ```
 
 ## Materiale
