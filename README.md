@@ -8,7 +8,7 @@
 
 ## Godot
 
-- [Game demo](godot-games/my-first-script/)
+- [Game demo](godot-games/builds/my-first-script/)
 
 ## Deltagere
 
