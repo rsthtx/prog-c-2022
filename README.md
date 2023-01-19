@@ -6,6 +6,10 @@
 ## Julekalender
 - [Advent of code intro](aoc-2022/)
 
+## Godot
+
+- [Game demo](godot-games/my-first-script/)
+
 ## Deltagere
 
 - [Hubert - hubodk](https://hubodk.github.io/) ([source](https://github.com/hubodk/hubodk.github.io))
