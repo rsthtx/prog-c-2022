@@ -9,6 +9,7 @@
 ## Godot
 
 - [Game demo](godot-games/builds/my-first-script/)
+- [Game projekt](../prog-c-2022-spil-projekt/)
 
 ## Deltagere
 
